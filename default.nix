@@ -46,6 +46,7 @@ let
     webcam.file = toString ./webcam;
     git-repo.file = toString ./git-repo;
     home-assistant.file = toString ./home-assistant;
+    secrets.file = toString ./secrets;
   };
   car = deploy-arm "car" "root@car" {
     secrets.file = toString ./secrets;

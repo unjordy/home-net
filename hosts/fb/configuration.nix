@@ -1,8 +1,10 @@
 { pkgs, ... }:
 {
   imports = [
+    ../../secrets
     /etc/nixos/hardware-configuration.nix
     ../../hardware/optiplex-9020.nix
+    ../../hardware/wifi/wpa.nix
     ../../octoprint
     ../../webcam
     ../../git-repo
