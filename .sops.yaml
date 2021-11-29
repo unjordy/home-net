@@ -4,8 +4,8 @@
 # for a more complex example
 keys:
   - &admin AB7F4A02A3586B6879BB666AA3880C94A8F40F52
-  - &car 9d12ecb82d1856c717b25c7271f4c324fdea0e13
-  - &cadr 53e15eddba0a72ef282a8b7bd9f31942ddc7f65b
+  - &car ab7f20de23259cb619b15c2f695369c73c14c778
+  - &cadr a0fdd32e99a61d094c3f872225b7fc9517b66ae7
   - &fb e14ad9a8f43f0399403cd0e25347660b9803f3a5
 creation_rules:
   - path_regex: secrets/[^/]+\.yaml$
