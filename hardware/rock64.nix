@@ -24,7 +24,7 @@
     fsType = "ext4";
   };
 
-  swapDevices = [ { device = "/swapfile"; size = 2048; } ];
+  swapDevices = [ { device = "/var/swapfile"; size = 2048; } ];
 
   nixpkgs.config.allowUnfree = true;
 
