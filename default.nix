@@ -25,7 +25,6 @@ let
   deploy-arm = name: target: extraSources: pkgs.krops.writeDeploy "deploy-${name}" {
     inherit target;
     crossDeploy = true;
-    force = true;
     source = lib.evalSource [
       ({
         hosts.file = toString ./hosts;
